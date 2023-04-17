@@ -1,5 +1,5 @@
 body {
-    background: midnightblue;
+    background: #6495ED;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,18 +7,19 @@ body {
     display:flex;
     flex-wrap:wrap;
 }
-.assignment {
+.assignment:hover {
+    border: 4px dashed black;
     width: 22%;
     padding: 10px;
     margin: 10px;
     padding: 20px 10px;
     background: lightsteelblue;
     border-radius:20px;
-
 }
 
 .assignment img {
     width: 200px;
+    height: 150px;
     margin: 10px;
     border: 4px solid white;
     display: block;
@@ -45,4 +46,8 @@ a {
 
 a:hover {
     color: #34495E;
+}
+
+p {
+    text-align: center;
 }
