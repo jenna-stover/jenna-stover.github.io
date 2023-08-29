@@ -1,0 +1,37 @@
+/* Structure */
+body {
+    background-color:teal;
+
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 3px solid white; 
+    background-color: lightpink;
+}
+
+th {
+    background-color: deepskyblue;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color:brown;
+}
+
+h1 {
+    color:greenyellow;
+}
+
+h2 {
+    color:steelblue;
+}
