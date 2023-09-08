@@ -1,19 +1,77 @@
 body {
-    background-color:lavender;
-}
-
-body {
+    background-color:#e9e2f7;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color:blueviolet;
+#content {
+    width: 85%;
+    margin: auto;
 }
 
-ul {
-    color:blueviolet;
+#main-header, #main-footer {
+    background-color: #bea9e8;
+    padding: 5px;
 }
 
-a {
-    text-decoration: none;
+#main-header {
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+#main-footer {
+    border-radius: 0 0 5px 5px;
+}
+
+#main-content {
+    background-color:#f4f1fb;
+    padding: 5px;
+}
+
+.column, #image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#image {
+    width: 300px;
+    height: 350px;
+    border: 5px solid #765aad;
+}
+
+.col1of3 {
+    background-color: #dfd4f3;
+}
+/* Main Nav */
+#main-nav li {
+    list-style-type: none; /* takes away bullet points */
+    display: inline-block; /* all appear next to each other */
+    text-align: center;
+}
+
+#main-nav a {
+    text-decoration: none; /* gets rid of underlines */
+    background-color: #dfd4f3;
+    padding: 8px;
+    color: #4a386c; 
+    border-radius: 5px;
+}
+
+#main-nav a:hover {
+    background: #9e7edc;
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container {
+        display: flex;
+    }
+    #main-nav li, .col1of3, #image{
+        flex: 1;
+    }
+
+    #image {
+        justify-content: space-between;
+    }
 }

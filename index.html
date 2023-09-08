@@ -8,18 +8,54 @@
 </head>
 
 <body>
-    <h1>CSCE 242 Website Applications</h1>
-    <h2>Jenna Stover</h2>
-    <p>Web technologies to support client-server computing. Implementation of client-server applications.</p>
+    <div id="content">
+    <header id="main-header">
+        <h1>CSCE 242 Website Applications</h1>
+        <h2>Jenna Stover</h2>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pictures</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <div class="flex-container"></div>
+        <section class= "sub-section">
+            <h3>Class Description</h3>
+             <p>Web technologies to support client-server computing. Implementation of client-server applications.</p>
 
-    <p>NOTE: This class uses JavaScript, HTML, CSS, and possibly more languages </p>
-
-    <h2>Assignments</h2>
-    <ul>
-        <li><a href="assignments/assignment1/cats.html">Assignment 1</a></li>
-        <li><a href="assignments/assignment2/coffee.html">Assignment 2</a></li>
-        <li><a href= "assignments/assignment3/swimming.html">Assignment 3</a></li>
-    </ul>
+            <p>NOTE: This class uses JavaScript, HTML, CSS, and possibly more languages </p>
+            <div class="flex-container">
+                <section class="col1of3 column">
+                    <h4>
+                        <a href="assignments/assignment1/cats.html">Assignment 1</a>
+                        <p>Practices basic HTML, formatting, and styling with CSS</p>
+                        <img id="image" src="images/assignment1.jpg" alt="Assignment1 Image">
+                    </h4>   
+                </section>
+                <section class="col1of3 column">
+                    <h4>
+                        <a href="assignments/assignment2/coffee.html">Assignment 2</a>
+                        <p>Styling with CSS by Id's and classname, and formatting HTML using divs</p>
+                        <img id= "image" src="images/assignment2.jpg" alt="Assignment2 Image">
+                    </h4>   
+                </section>
+                <section class="col1of3 column">
+                    <h4>
+                        <a href= "assignments/assignment3/swimming.html">Assignment 3</a>
+                        <p>Using Flexbox with CSS to create a larger resolution view when screen is 900px or more</p>
+                        <img id="image" src="images/assignment3.jpg" alt="Assignment3 Image">
+                    </h4>   
+                </section>
+            </div>
+        </section>
+       
+    </main>
+    <footer id="main-footer"><p>&copy; jenna-stover.com</p></footer>
+    </div>
 </body>
 
 </html>
