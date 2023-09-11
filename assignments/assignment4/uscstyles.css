@@ -1,0 +1,304 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+}
+
+#main-header {
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+}
+
+#head-image {
+    width: 300px;
+    text-align: left;
+    padding: 5px;
+}
+
+#section1-image {
+    width: 1300px;
+    height: 500px;
+}
+
+#section2-image {
+    width: 700px;
+    height: 500px;
+    text-align: left;
+}
+
+#section3-image {
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+}
+
+#section4-image {
+    width: 300px;
+    height: 350px;
+}
+
+#section5-image {
+    width: 200px;
+    height: 250px;
+}
+
+#section6-image {
+    width: 500px;
+    height: 450px;
+}
+
+#section7-image {
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+#section8-image {
+    width: 600px;
+    height: 500px;
+}
+
+#section10-image {
+    width: 600px;
+    height: 500px;
+}
+
+#footer-image {
+    width: 300px;
+    text-align: left;
+    padding: 5px;
+}
+
+#main-nav {
+    background-color: #73000A;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Research-at-SC h1{
+    padding: 10px;
+    background-color: #73000A;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    border-width: 5px;
+}
+
+.Remarkable-research {
+    text-align: center;
+    background-color: #73000A;
+    color: white;
+}
+
+.Overcoming-barriers {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.Overcoming-barriers h1{
+    background-color: black;
+}
+
+
+.achieving-new-understanding {
+    background-color: lightgrey;
+}
+
+.achieving-new-understanding h1 {
+    background-color: lightgrey;
+    color:#73000A;
+}
+
+.Research-spotlights {
+    color:#73000A;
+    text-decoration: none;
+}
+
+.Research-spotlights-col1-4 
+{
+    text-decoration: none;
+
+}
+
+.Research-spotlights h1{
+    background-color: white;
+    color:#73000A;
+    text-align: center;
+}
+
+.Breakthrough-faculty {
+    background-color: #73000A;
+    color: white;
+    padding: 5px;
+}
+
+.Investing-in-Research h1{
+    background-color: white;
+    color:#73000A;
+}
+
+.Investing-in-Research {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.Leading-edge {
+    background-color: #1E414D;
+    color: white;
+}
+
+.Leading-edge h1 {
+    background-color: #1E414D;
+
+}
+
+.build-better-world {
+    background: url(images/buildbetterworld.jpg);
+    background-size: 500;
+    color: white;
+    height: 500px;
+    background-color: #73000A;
+}
+
+.build-better-world-col1{
+    background-color:#73000A;
+}
+
+.vice-president h1{
+    background-color: white;
+    color:#73000A;
+}
+
+#Overcoming-link {
+    background-color: #73000A;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#breakthrough-research-link {
+    background-color: #73000A;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#breakthrough-faculty-link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#inv-in-res-link {
+    background-color:#73000A;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+}
+
+#leading-edge-link {
+    background-color:#73000A;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#build-better-link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#vice-pres-link {
+    background-color:#73000A;
+    color: white;
+    text-decoration: none;
+    border-width: 10px;
+    padding: 10px;
+}
+
+#main-footer {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#main-content {
+    text-align: left;
+    background: white;
+    padding: 5px;
+}
+
+.column, .image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.content-section {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#sub-footer {
+    background-color: #73000A;
+}
+/* Main Nav */
+#main-nav li {
+    list-style-type: none; /* takes away bullet points */
+    display: inline-block; /* all appear next to each other */
+}
+
+#main-nav a {
+    text-decoration: none; /* gets rid of underlines */
+    background-color: #73000A;
+    padding: 5px;
+    color: white; 
+    border-radius: 5px;
+}
+
+#main-nav a:hover {
+    background: #540002;
+}
+
+/* Typography */
+#main-header h1 {
+    text-align: center;
+    color: #365264; 
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    #main-nav, .flex-container {
+        display: flex;
+    }
+    #main-nav, .column, .image{
+        flex: 1;
+    }
+
+    .image {
+        justify-content: space-between;
+    }
+
+}
