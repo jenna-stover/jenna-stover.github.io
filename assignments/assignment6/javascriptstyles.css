@@ -1,0 +1,97 @@
+/* Structure */
+
+body {
+    background-color:floralwhite;
+}
+
+#content {
+    width: 85%;
+    margin: auto;
+}
+
+#main-header, #main-footer {
+    background-color:rosybrown;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+#main-content {
+    padding: 5px;
+}
+
+#cat-image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 3px solid rosybrown;
+    text-align: center;
+}
+
+.column {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    text-align: center;
+    border: 5px solid darkslategray;
+}
+
+#comment {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: darkslategray;
+    color: white;
+    text-align: left;
+}
+
+
+/* Animation */
+#moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 darkslategray;
+    text-align: center;
+    margin: 15px;
+}
+
+.dance {
+    animation-name: dance-moon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes dance-moon {
+    0% {
+        box-shadow: 15px 15px 0 0 darkslategray;
+        top: 0px;
+    }
+    50% {
+        box-shadow: 15px 15px 0 0 darkcyan;
+        left: 200px;
+
+    }
+    100% {
+        box-shadow: 15px 15px 0 0 lightblue;
+        top: 0px;
+    }
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container {
+        display: flex;
+    }
+    #main-nav li, .col1of1, .column, #image{
+        flex: 1;
+    }
+
+    #image {
+        justify-content: space-between;
+    }
+
+}
+
+/* Typography */

@@ -1,0 +1,43 @@
+/* Structure */
+
+body {
+    background-color:pink;
+}
+
+/* Animation */
+#square {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; /* centers the text */
+   
+    
+}
+.animation {
+    position: relative; /* needed to animate */
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: 50; /* how many times you want to run it */
+}
+   
+@keyframes anim-square {
+    0% {
+        background-color:cadetblue;
+        opacity: 1;
+        top: 0px;
+    }
+    50% {
+        background-color:dodgerblue;
+        opacity: 0;
+        top: 100px;
+
+    }
+    100% {
+        background-color: blue;
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+/* Typography */

@@ -67,11 +67,17 @@ body {
     #main-nav ul, .flex-container {
         display: flex;
     }
+    .assignments {
+        flex-wrap: wrap;
+    }
     #main-nav li, .col1of3, #image{
         flex: 1;
     }
 
     #image {
         justify-content: space-between;
+    }
+    .col1of3 {
+        flex: 30%;
     }
 }
