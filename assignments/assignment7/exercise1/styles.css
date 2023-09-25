@@ -38,7 +38,6 @@ body {
 #main-nav li {
     list-style-type: none;
     width: 50%;
-    text-align: center;
 }
 
 #main-nav a {
@@ -48,7 +47,11 @@ body {
     padding: 10px 0;
 }
 
-#main-nav a:hover {
+#nav-items li{
+    width: 50%;
+}
+
+#main-nav a:active {
     border-bottom: 2px solid rgb(3, 50, 107);
 }
 
