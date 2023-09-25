@@ -1,0 +1,115 @@
+/* Structure */
+
+body {
+    background-color:lightsteelblue;
+}
+
+#main-header, #main-footer {
+    background-color:steelblue;
+    text-align: center;
+}
+
+#main-content {
+    background-color:rgb(223, 221, 214);
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+
+/* Main Navigation */
+
+#main-nav ul {
+    padding-left: 0px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0;
+}
+
+#main-nav a:hover {
+    border-bottom: 2px solid lightblue;
+}
+
+
+/* Form */
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+
+/* Typography */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hide-small {
+    display: none;
+}
+
+.display-thermometer {
+    width: 200px; 
+    height: 400px; 
+    border: 2px solid black;
+    position: relative;
+  }
+  
+  .progress-bar {
+    height: 0; 
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,103,1) 25%, rgba(7,46,146,1) 50%, rgba(0,212,255,1) 75%), rgba(0,212,255,1) 100%;
+    transition: height 0.5s ease;
+  }
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+        width: auto;
+    }
+    .columns {
+        display: flex;
+    }
+    .col1of2 {
+        flex: 1;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+}

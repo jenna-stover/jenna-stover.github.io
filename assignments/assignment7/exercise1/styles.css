@@ -1,0 +1,107 @@
+/* Structure */
+
+body {
+    background-color:lightsteelblue;
+}
+
+#main-header, #main-footer {
+    background-color:steelblue;
+    text-align: center;
+}
+
+#main-content {
+    background-color:rgb(223, 221, 214);
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+
+/* Main Navigation */
+
+#main-nav ul {
+    padding-left: 0px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0;
+}
+
+#main-nav a:hover {
+    border-bottom: 2px solid lightblue;
+}
+
+
+/* Form */
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+#result section {
+    border: 2px solid steelblue;
+    background: lightblue;
+    padding: 5px;
+}
+
+
+/* Typography */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hide-small {
+    display: none;
+}
+
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+        width: auto;
+    }
+    .columns {
+        display: flex;
+    }
+    .col1of2 {
+        flex: 1;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+}
