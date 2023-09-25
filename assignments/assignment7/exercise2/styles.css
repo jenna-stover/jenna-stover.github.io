@@ -7,14 +7,22 @@ body {
 #main-header, #main-footer {
     background-color:steelblue;
     text-align: center;
+    border-radius: 10px;
+}
+
+#main-footer {
+    padding: 5px;
 }
 
 #main-content {
     background-color:rgb(223, 221, 214);
+    border-radius: 10px;
+    border: 5px solid rgb(3, 50, 107);
+    padding: 5px;
 }
 
 .padded-area {
-    padding: 5px;
+    padding-top: 5px;
     margin: auto;
 }
 
@@ -23,6 +31,8 @@ body {
 
 #main-nav ul {
     padding-left: 0px;
+    background-color: rgb(143, 195, 250);
+    border-radius: 10px;
 }
 
 #main-nav li {
@@ -38,8 +48,8 @@ body {
     padding: 10px 0;
 }
 
-#main-nav a:hover {
-    border-bottom: 2px solid lightblue;
+#main-nav a:active {
+    border-bottom: 2px solid rgb(3, 50, 107);
 }
 
 

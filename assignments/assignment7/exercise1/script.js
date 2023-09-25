@@ -16,42 +16,40 @@ const displayData = () => {
         return; 
     }
 
-    let largestName = "";
+    let oldestName = "";
     let middleName = "";
-    let smallestName = "";
+    let youngestName = "";
 
     if (age1 >= age2 && age1 >= age3) {
-        largestName = name1;
+        oldestName = name1;
         if (age2 >= age3) {
             middleName = name2;
-            smallestName = name3;
+            youngestName = name3;
         } else {
             middleName = name3;
-            smallestName = name2;
+            youngestName = name2;
         }
     }else if (age2 >= age1 && age2 >= age3) {
-        largestName = name2;
+        oldestName = name2;
         if (age1 >= age3) {
             middleName = name1;
-            smallestName = name3;
+            youngestName = name3;
         } else {
             middleName = name3;
-            smallestName = name1;
+            youngestName = name1;
         }
     }else {
-        largestName = name3;
+        oldestName = name3;
         if (age1 >= age2) {
             middleName = name1;
-            smallestName = name2;
+            youngestName = name2;
         } else {
             middleName = name2;
-            smallestName = name1;
+            youngestName = name1;
         }
     }
 
-    resultDiv.innerHTML = `<section>Oldest to Youngest: ${largestName}, ${middleName}, ${smallestName}</section>`;
-
-    
+    resultDiv.innerHTML = `<section>Oldest to Youngest: ${oldestName}, ${middleName}, ${youngestName}</section>`;
 };
 
 window.onload = () => {
