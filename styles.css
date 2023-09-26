@@ -1,5 +1,5 @@
 body {
-    background-color:#e9e2f7;
+    background-color:rgb(210, 224, 210);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,17 +9,23 @@ body {
 }
 
 #main-header, #main-footer {
-    background-color: #bea9e8;
-    padding: 5px;
+    background-color:rgb(72, 120, 95);
+    color: white;
 }
 
 #main-header {
     border-radius: 10px 10px 0 0;
     text-align: center;
+    padding-top: 5px;
 }
 
 #main-footer {
     border-radius: 0 0 5px 5px;
+    padding: 5px;
+}
+
+.sub-section {
+    padding: 5px;
 }
 
 #main-content {
@@ -28,43 +34,53 @@ body {
 }
 
 .column, #image {
-    padding: 5px;
     margin: 5px;
     border-radius: 3px;
     text-align: center;
 }
 
+.column {
+    padding: 3px;
+}
+
 #image {
     width: 300px;
     height: 350px;
-    border: 5px solid #765aad;
+    border: 2px solid black;
+}
+
+#assignment-link {
+    text-decoration: none;
+    color: rgb(51, 86, 68);
 }
 
 .col1of3 {
-    background-color: #dfd4f3;
+    background-color: #b8d4be;
+    border: 3px solid rgb(51, 86, 68);
+
 }
 /* Main Nav */
 #main-nav li {
     list-style-type: none; /* takes away bullet points */
-    display: inline-block; /* all appear next to each other */
-    text-align: center;
+    display: inline-block; /* all appear next to each other */ 
 }
 
 #main-nav a {
     text-decoration: none; /* gets rid of underlines */
-    background-color: #dfd4f3;
-    padding: 8px;
-    color: #4a386c; 
+    background-color: #b8d4be;
+    padding: 10px;
+    color: black; 
     border-radius: 5px;
+    text-align: center;
 }
 
 #main-nav a:hover {
-    background: #9e7edc;
+    background-color:darkslategray;
 }
 
 /* Larger Resolutions */
 @media (min-width: 900px) {
-    #main-nav ul, .flex-container {
+    #main-nav ul, #main-nav a, .flex-container {
         display: flex;
     }
     .assignments {
