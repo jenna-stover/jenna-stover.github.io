@@ -12,7 +12,6 @@ body {
 
 
 #main-content {
-    background-color:palevioletred;
     padding: 5px;
 }
 
@@ -21,17 +20,17 @@ h1 {
 }
 
 .column {
+    background-color:palevioletred;
     padding: 5px;
-    margin: 5px;
-    border-radius: 3px;
-    border: 3px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid white;
 }
 
 .col1of2 {
     height: 175px;
     position: relative;
     top: 0px;
-
 }
 
 #padded-area {
@@ -41,25 +40,39 @@ h1 {
 
 
 /*Animation*/
-
-#running-man
-{
+#stickfigure {
     width: 100px;
     height: 100px;
-    animation: running 0.5s infinite;
+}
+
+.run
+{
+    animation-name: running-stickfigure;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes running-stickfigure {
+    0% { 
+        transform: translateX(0) rotate(0deg); 
+    }
+    25% { 
+        transform: translateX(50px) rotate(15deg); 
+    }
+    50% { 
+        transform: translateX(100px) rotate(0deg); 
+    }
+    75% { 
+        transform: translateX(150px) rotate(-15deg); 
+    }
+    100% { 
+        transform: translateX(200px) rotate(0deg); 
+    }
 }
 
 .gradient-column {
     background-image: linear-gradient(0deg, green, blue, indigo);
 }
-
-@keyframes running {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(15deg); }
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-15deg); }
-    100% { transform: rotate(0deg); }
-  }
 
 
 /* Form */
@@ -91,7 +104,7 @@ label {
   #result {
     width: 150px; 
     height: 400px; 
-    /* background-image: linear-gradient(0deg, green, blue, indigo); */
+    background-image: linear-gradient(0deg, green, blue, indigo);
   }
 
 /* Larger Resolutions */
@@ -99,12 +112,9 @@ label {
 @media (min-width: 900px) {
     .flex-container {
         display: flex;
+        gap: 20px;
     }
     .column {
         flex: 1;
-    }
-
-    #col1of2 {
-        top: 150px;
     }
 }

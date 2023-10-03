@@ -10,7 +10,7 @@ body {
     margin: auto;
 }
 
-#main-header, #main-footer {
+#main-header {
     background-color:rosybrown;
     padding: 5px;
     border-radius: 5px 5px 0 0;
@@ -72,7 +72,6 @@ body {
     50% {
         box-shadow: 15px 15px 0 0 darkcyan;
         left: 200px;
-
     }
     100% {
         box-shadow: 15px 15px 0 0 lightblue;
