@@ -22,6 +22,9 @@ body {
     color: white;
 }
 
+.col1of2 {
+    padding: 5px;
+}
 
 #padded-area {
     padding-top: 5px;
@@ -49,19 +52,6 @@ body {
     height: 150px;
 }
 
-
-/* Form */
-
-label,
-input {
-    display: inline-flex;
-}
-
-label {
-    width: 100px;
-    text-align: right;
-    padding: 5px;
-}
 
 
 /* Typography */
