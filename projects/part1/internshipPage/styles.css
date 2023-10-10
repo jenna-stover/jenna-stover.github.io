@@ -4,13 +4,9 @@ body {
     background-color:lightsteelblue;
 }
 
-#main-header, #main-footer {
+#main-header {
     background-color:aliceblue;
     border-radius: 10px;
-}
-
-#main-footer {
-    padding: 5px;
 }
 
 #main-content {
@@ -25,17 +21,16 @@ body {
     margin: auto;
 }
 
-#image-resume {
-    width: 450px;
-    height: 550px;
-    border: 2px solid darkgray;
-}
-
 .sub-section {
     background-color: aliceblue;
     border-radius: 10px 10px 0 0;
     padding: 5px;
 }
+
+#list-internships li {
+    text-decoration: none;
+}
+
 /* Main Navigation */
 #main-nav ul {
     padding-left: 0px;
@@ -59,7 +54,6 @@ body {
     background-color: darkgray;
   }
 
-
 /* Typography */
 
 body {
@@ -70,16 +64,6 @@ h1 {
     padding: 5px;
 }
 
-#hamburger div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
-
-.hide-small {
-    display: none;
-}
 
 /* Larger Resolutions */
 
@@ -90,11 +74,5 @@ h1 {
     }
     .column {
         display: flex;
-    }
-    #hamburger {
-        display: none;
-    }
-    .hide-small {
-        display: block;
     }
 }

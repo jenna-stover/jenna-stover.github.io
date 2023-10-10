@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src= "script.js"></script>
+</head>
+
+<body>
+    <header id = "main-header" class = "padded-area">
+        <h1>Internships Summer 2024</h1>
+        <nav id= "main-nav">
+            <div id = "hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="../homePage/index.html">Home</a></li>
+                <li><a href="../internshipPage/index.html">Internships</a></li>
+                <li><a href="#">Applied</a></li>
+                <li><a href="../reviewPage/index.html">Company Reviews</a></li>
+                <li><a href="../statusPage/index.html">Application Status</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id = "main-content" class = "padded-area">
+        <div class="flex-container">
+        <section class="main-section">
+            <section class="col1of2 column">
+                <h2>Completed Applications: </h2>
+                <ul>
+                    <li><a href="https://jobs.lever.co/coalfire/4de3320d-43de-4c37-9dd0-4ff6b2031f9b">2024 Summer Internship- Coalfire</a></li>
+                </ul>
+                <label for="add-completed">Add Completed Application: </label>
+                <input id="input1" type="text">
+
+                <button id="add-completed-button">Display</button>
+                <div id="updated-completed-apps"></div>
+            </section>
+
+            <section class="col2of2 column">
+                <h2>Application Progress: </h2>
+                <label for="app-progress"># of Applications Completed: </label>
+                <input id="input2" type="number">
+
+                <button id="progress-button">Calculate</button>
+                <div id="progress-bar">
+                    <div id="progress-bar-fill"></div>
+                </div>
+            </section>
+        </section>
+        </div>
+    </main>
+
+    <footer id="main-footer" class="padded-area">
+        <p></p>
+    </footer>
+</body>
+</html>
