@@ -35,10 +35,6 @@ body {
     padding: 5px;
 }
 
-#list-internships a {
-    text-decoration: none;
-    color:darkblue;
-}
 
 /* Main Navigation */
 #main-nav ul {
@@ -73,7 +69,6 @@ h1 {
     padding: 5px;
 }
 
-
 #hamburger div {
     width: 35px;
     height: 5px;
@@ -84,6 +79,8 @@ h1 {
 .hide-small {
     display: none;
 }
+
+
 
 /* Larger Resolutions */
 
