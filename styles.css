@@ -1,6 +1,6 @@
 body {
-    background-color:rgb(197, 195, 195);
     font-family: Arial, Helvetica, sans-serif;
+    background: url(images/background-image.jpg);
 }
 
 #content {
@@ -9,7 +9,7 @@ body {
 }
 
 #main-header, #main-footer {
-    background-image: linear-gradient(0deg, rgb(139, 178, 139), rgb(76, 136, 100), rgb(29, 71, 49));
+    background: rgba(22, 29, 80, 0.70);
     color: white;
 }
 
@@ -19,9 +19,6 @@ body {
     padding-top: 5px;
 }
 
-#assignments-header, #projects-header {
-    text-align: center;
-}
 
 #main-footer {
     border-radius: 0 0 5px 5px;
@@ -30,54 +27,34 @@ body {
 
 .sub-section {
     padding: 5px;
+    border: 5px solid rgb(3, 3, 63);
 }
 
 #main-content {
-    background-color:#f4f1fb;
     padding: 5px;
-    border: 2px solid black;
-}
-
-.column, #image {
-    margin: 5px;
-    border-radius: 3px;
-    text-align: center;
 }
 
 .column {
+    text-align: center;
     padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #aec3fa;
+    width: 100%;
 }
 
-#image {
-    width: 300px;
-    height: 350px;
-    border: 2px solid black;
-    border-radius: 8px;
-}
 
 #assignment-link {
     text-decoration: none;
-    color: rgb(51, 86, 68);
+    color: rgb(38, 45, 91);
 }
 
-.col1of3 {
-    background-color: #b8d4be;
-    border: 3px solid rgb(51, 86, 68);
-    border-radius: 8px;
-}
-
-.projects {
-    background-color: rgb(180, 200, 247);
-    border: 3px solid rgb(76, 60, 109);
-    border-radius: 8px;
-}
 /* Main Nav */
 
 #main-nav li {
-    text-align: center;
     list-style-type: none; 
     display: inline-block; 
-    margin: 0 10px;
+    margin: 5px;
 }
 
 #main-nav ul {
@@ -86,33 +63,27 @@ body {
 
 #main-nav a {
     text-decoration: none; /* gets rid of underlines */
-    background-color: #b8d4be;
+    background-color: #93b0f7;
     padding: 10px;
     color: black; 
-    border: 3px solid rgb(72, 120, 95);
     text-align: center;
+    border-radius: 10px;
 }
 
 #main-nav a:hover {
-    background-color:rgb(104, 148, 125);
+    background-color:rgb(53, 69, 128);
+    border: 2px solid white;
+    color: white;
 }
+
 
 /* Larger Resolutions */
 @media (min-width: 900px) {
-    #main-nav ul, #main-nav a, .flex-container {
+    #main-nav ul, .flex-container, #main-nav a {
         display: flex;
     }
-    .assignments, .projects {
-        flex-wrap: wrap;
-    }
-    #main-nav li, .col1of3, #image{
+    #main-nav li, .column{
         flex: 1;
     }
 
-    #image {
-        justify-content: space-between;
-    }
-    .col1of3, .projects{
-        flex: 30%;
-    }
 }
