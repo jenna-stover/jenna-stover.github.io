@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../images/background-image.jpg);
+    background: url(../images/web-background.jpg);
 }
 
 #content {
@@ -26,6 +26,10 @@ body {
 #project-link {
     text-decoration: none;
     color: rgb(38, 45, 91);
+}
+
+#project-link:hover {
+    color:rgb(105, 142, 221);
 }
 
 #main-footer {

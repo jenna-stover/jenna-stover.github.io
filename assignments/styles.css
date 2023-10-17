@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../images/background-image.jpg);
+    background: url(../images/web-background.jpg);
 }
 
 #content {
@@ -56,6 +56,10 @@ body {
 #assignment-link {
     text-decoration: none;
     color: rgb(38, 45, 91);
+}
+
+#assignment-link:hover {
+    color:rgb(105, 142, 221);
 }
 
 /* Main Nav */

@@ -35,7 +35,7 @@ body {
     padding: 5px;
 }
 
-#list-internships a {
+#list-internships {
     text-decoration: none;
     color:darkblue;
 }
