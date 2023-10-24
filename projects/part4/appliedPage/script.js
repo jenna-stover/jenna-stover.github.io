@@ -3,7 +3,7 @@ const toggleNav = () => {
 };
 
 const addCompletedApp = () => {
-    const completedAppInput = document.getElementById("completedApp-input").value;
+    const completedAppInput = document.getElementById("add-completed").value;
 
     const list = document.getElementById("completed-apps-list");
     const newElem = document.createElement("li");
@@ -19,9 +19,9 @@ const displayData = () => {
     const percentageRaised = (appsCompleted / goal) * 100;
     const clampedPercentage = Math.min(100, Math.max(0, percentageRaised));
 
-    const progressBarFill = document.getElementById("progress-bar-fill");
+    const progressCircleFill = document.getElementById("progress-circle-fill");
     
-    progressBarFill.style.height = `${clampedPercentage}%`;
+    progressCircleFill.style.height = `${clampedPercentage}%`;
 };
 
 window.onload = () => {

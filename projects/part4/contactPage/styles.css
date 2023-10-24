@@ -4,17 +4,13 @@ body {
     background-color:lightsteelblue;
 }
 
-#main-header {
+#main-header, #main-footer {
     background-color:aliceblue;
     border-radius: 10px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(3, 50, 107);
 }
 
-#content {
-    width: 85%;
-    margin: auto;
-    padding: 3px 5px;
+#main-footer {
+    padding: 5px;
 }
 
 #main-content {
@@ -24,25 +20,66 @@ body {
     padding: 5px;
 }
 
-
+#content {
+    width: 85%;
+    margin: auto;
+    padding: 3px 5px;
+}
 
 .padded-area {
     padding-top: 5px;
     margin: auto;
 }
 
-.sub-section {
-    background-color: aliceblue;
-    border-radius: 10px 10px 0 0;
-    padding: 5px;
+
+/* Form */
+
+#contact-form {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.columns {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.message {
+    margin-top: 10px;
+}
+  
+#success-message {
+    color: green;
+  }
+  
+#error-message {
+    color: red;
 }
 
-#list-internships a {
-    text-decoration: none;
-    color:darkblue;
-}
 
 /* Main Navigation */
+
 #main-nav ul {
     padding-left: 0px;
   }
@@ -50,9 +87,9 @@ body {
   #main-nav li {
     list-style-type: none;
     background-color: gainsboro;
-    margin: 5px;
-    padding: 4px;
+    padding: 5px;
     border: 2px solid darkgray;
+    margin: 5px;
     border-radius: 10px;
   }
   
@@ -65,38 +102,17 @@ body {
     background-color: darkgray;
   }
 
-  /* Table */
-table {
-    border-collapse: collapse;
-}
 
-td, th {
-    border: 1px solid black; 
-    padding: 4px;
-}
-
-th {
-    background: #6293b0;
-}
-
-td a{
-    text-decoration: none;
-    color:#1f3a4a;
-}
-
-td a:hover{
-    color:#5797bd;
-}
 /* Typography */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h2 {
     padding: 5px;
+    text-align: center;
 }
-
 
 #hamburger div {
     width: 35px;
@@ -109,6 +125,12 @@ h1 {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+  
+
+  
 
 /* Larger Resolutions */
 

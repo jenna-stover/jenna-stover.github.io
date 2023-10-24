@@ -11,6 +11,12 @@ body {
     border: 2px solid rgb(3, 50, 107);
 }
 
+#profile-link, #resume-link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+
 #content {
     width: 85%;
     margin: auto;
@@ -25,23 +31,35 @@ body {
 }
 
 
+.column, .image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
 
 .padded-area {
     padding-top: 5px;
     margin: auto;
 }
 
-.sub-section {
+#image-resume {
+    width: 450px;
+    height: 550px;
+    border: 2px solid darkgray;
+}
+
+#linkedin-image {
+    width: 315px;
+    height: 175px;
+    border: 2px solid darkgray;
+}
+
+h3 {
     background-color: aliceblue;
     border-radius: 10px 10px 0 0;
-    padding: 5px;
+    padding: 15px;
+    margin: 5px;
 }
-
-#list-internships a {
-    text-decoration: none;
-    color:darkblue;
-}
-
 /* Main Navigation */
 #main-nav ul {
     padding-left: 0px;
@@ -65,28 +83,7 @@ body {
     background-color: darkgray;
   }
 
-  /* Table */
-table {
-    border-collapse: collapse;
-}
 
-td, th {
-    border: 1px solid black; 
-    padding: 4px;
-}
-
-th {
-    background: #6293b0;
-}
-
-td a{
-    text-decoration: none;
-    color:#1f3a4a;
-}
-
-td a:hover{
-    color:#5797bd;
-}
 /* Typography */
 
 body {
@@ -96,7 +93,6 @@ body {
 h1 {
     padding: 5px;
 }
-
 
 #hamburger div {
     width: 35px;
@@ -108,7 +104,6 @@ h1 {
 .hide-small {
     display: none;
 }
-
 
 /* Larger Resolutions */
 

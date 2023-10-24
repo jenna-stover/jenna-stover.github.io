@@ -4,4 +4,4 @@ const toggleNav = () => {
 
 window.onload = () => {
     document.getElementById("hamburger").onclick = toggleNav;
-}
+};

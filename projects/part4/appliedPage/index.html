@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="styles.css">
@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div id="content">
+<div id="content">
     <header id = "main-header" class = "padded-area">
         <h1>Internships Summer 2024</h1>
         <nav id= "main-nav">
@@ -22,41 +22,45 @@
                 <li><a href="#">Applied</a></li>
                 <li><a href="../reviewPage/index.html">Company Reviews</a></li>
                 <li><a href="../statusPage/index.html">Application Status</a></li>
+                <li><a href="../contactPage/index.html">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
     <main id = "main-content">
         <div class="flex-container">
-            <div class="flex-container">
-                <section class="col1of2 column">
-                    <h2>Completed Applications: </h2>
+            <section class="col1of2 column">
+                <h2>Completed Applications: </h2>
+                <p class="column">
                     <ul id="completed-apps-list">
-                        <li><a href="https://jobs.lever.co/coalfire/4de3320d-43de-4c37-9dd0-4ff6b2031f9b">2024 Summer Internship- Coalfire</a></li>
-                        <li><a href="https://www.linkedin.com/jobs/search/?currentJobId=3736198869&f_C=18789801&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=3736198869%2C3724940056%2C3736450559%2C3733605105%2C3725647132%2C3720209430%2C3720205665%2C3685805265%2C3730799375">Data Science Intern- Atmosfy</a></li>
+                    <li><a href="https://jobs.lever.co/coalfire/4de3320d-43de-4c37-9dd0-4ff6b2031f9b">2024 Summer Internship- Coalfire</a></li>
+                    <li><a href="https://www.linkedin.com/jobs/search/?currentJobId=3736198869&f_C=18789801&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=3736198869%2C3724940056%2C3736450559%2C3733605105%2C3725647132%2C3720209430%2C3720205665%2C3685805265%2C3730799375">Data Science Intern- Atmosfy</a></li>
                     </ul>
+                </p>
+                <p class="column">
                     <label for="add-completed">Add Completed Application: </label>
-                    <input id="completedApp-input" type="text">
-    
+                    <input id="add-completed" type="text">
+
                     <button id="add-completed-button">Display</button>
-                    <div id="completed-apps"></div>
-                </section>
-            </div>
+                </p>
+            </section>
+        </div>
             
-            <div class="flex-container">
-                    <section class="col2of2 column">
-                    <h2>Application Progress: </h2>
-                    <label for="app-progress"># of Applications Completed: </label>
+        <div class="flex-container">
+            <section class="col2of2 column">
+                <h2>Application Progress: </h2>
+                <p class="column">
+                    <label for="number-completed"># of Applications Completed: </label>
                     <input id="number-completed" type="number">
 
                     <button id="progress-button">Calculate</button>
-                    <div id="progress-bar">
-                        <div id="progress-bar-fill"></div>
+                    <div id="progress-cirlce">
+                        <div id="progress-circle-fill"></div>
                     </div>
-                </section>
-            </div>
+                </p>
+            </section>
         </div>
     </main>
-    </div>
+</div>
 </body>
 </html>
