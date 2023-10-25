@@ -1,22 +1,18 @@
 /* Structure */
 
 body {
-    background-color:lightsteelblue;
+    background-color:white;
 }
 
-#main-header, #main-footer {
-    background-color:aliceblue;
+#main-header {
     border-radius: 10px;
-}
-
-#main-footer {
-    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
 }
 
 #main-content {
     background-color:rgb(223, 221, 214);
     border-radius: 10px;
-    border: 2px solid rgb(3, 50, 107);
     padding: 5px;
 }
 

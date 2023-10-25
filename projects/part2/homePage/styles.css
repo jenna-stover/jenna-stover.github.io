@@ -1,11 +1,10 @@
 /* Structure */
 
 body {
-    background-color:lightsteelblue;
+    background-color:white;
 }
 
 #main-header {
-    background-color:aliceblue;
     border-radius: 10px;
     margin-bottom: 10px;
     border: 2px solid rgb(3, 50, 107);
@@ -13,7 +12,6 @@ body {
 
 #profile-link, #resume-link {
     text-decoration: none;
-    color: darkblue;
 }
 
 
@@ -26,7 +24,6 @@ body {
 #main-content {
     background-color:rgb(223, 221, 214);
     border-radius: 10px;
-    border: 2px solid rgb(3, 50, 107);
     padding: 5px;
 }
 
@@ -42,20 +39,7 @@ body {
     margin: auto;
 }
 
-#image-resume {
-    width: 450px;
-    height: 550px;
-    border: 2px solid darkgray;
-}
-
-#linkedin-image {
-    width: 315px;
-    height: 175px;
-    border: 2px solid darkgray;
-}
-
 h3 {
-    background-color: aliceblue;
     border-radius: 10px 10px 0 0;
     padding: 15px;
     margin: 5px;
