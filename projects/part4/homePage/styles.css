@@ -35,6 +35,7 @@ body {
     padding: 5px;
     margin: 5px;
     border-radius: 3px;
+    flex: 1;
 }
 
 .padded-area {
@@ -113,6 +114,11 @@ h1 {
 
 .hide-small {
     display: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Larger Resolutions */
