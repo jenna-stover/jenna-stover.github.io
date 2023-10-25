@@ -19,9 +19,9 @@ const displayData = () => {
     const percentageRaised = (appsCompleted / goal) * 100;
     const clampedPercentage = Math.min(100, Math.max(0, percentageRaised));
 
-    const progressCircleFill = document.getElementById("progress-circle-fill");
+    const progressBarFill = document.getElementById("progress-bar-fill");
     
-    progressCircleFill.style.height = `${clampedPercentage}%`;
+    progressBarFill.style.height = `${clampedPercentage}%`;
 };
 
 window.onload = () => {
