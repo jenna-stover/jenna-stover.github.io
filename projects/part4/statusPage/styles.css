@@ -24,6 +24,10 @@ body {
     padding: 5px;
 }
 
+#column {
+    margin: 10px;
+}
+
 .padded-area {
     padding-top: 5px;
     margin: auto;

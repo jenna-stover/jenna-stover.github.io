@@ -60,6 +60,12 @@ h3 {
     padding: 15px;
     margin: 5px;
 }
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
 /* Main Navigation */
 #main-nav ul {
     padding-left: 0px;
@@ -82,6 +88,8 @@ h3 {
   #main-nav li:hover {
     background-color: darkgray;
   }
+
+
 
 
 /* Typography */

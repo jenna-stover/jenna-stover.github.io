@@ -28,7 +28,23 @@ body {
     margin: auto;
 }
 
+#completed-apps-list {
+    background-color: rgb(190, 148, 188);
+    border-radius: 5px;
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 25px;
+}
 
+#completed-apps-list a:hover {
+    color: white;
+}
+
+#completed-apps-list a{
+    text-decoration: none;
+    color: black;
+}
 /* Main Navigation */
 
 #main-nav ul {
