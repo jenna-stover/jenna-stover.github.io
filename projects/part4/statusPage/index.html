@@ -29,24 +29,61 @@
     </header>
     <main id = "main-content">
         <div class="flex-container">
-            <div>
-                <section>
-                    <h3>Interviews: </h3>
-                    <table>
-                        <tr>
-                            <th>Company</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                        </tr>
-                        <tr>
-                            <td>Coalfire</td>
-                            <td>10/20/23</td>
-                            <td>11am-11:45am</td>
-                        </tr>
-                    </table>
+                <section id="form1 column">
+                    <p id="columns">
+                        <h3>Add Interview</h2>
+                    </p>
+                    <p id="columns">
+                        <label for="company">Company: </label>
+                        <input type="text" id="company">
+                    </p>
+                    <p id="columns">
+                        <label for="date">Date: </label>
+                        <input type="date" id="date">
+                    </p>
+                    <p id="columns">
+                        <label for="time">Time: </label>
+                        <input type="time" id="time">
+                    </p>
+                    <p id="columns">
+                        <button id="add-interview-button">Add to Table</button>
+                    </p>
                 </section>
 
-                <section>
+                <section id="table1 column">
+                    <h3>Interviews: </h3>
+                    <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Coalfire</td>
+                        <td>10/20/23</td>
+                        <td>11am-11:45am</td>
+                    </tr>
+                    </table>
+                </section>
+    
+                <section id="form2 column">
+                    <p id="columns">
+                        <h3>Add Interview Status: </h3>
+                    </p>
+                    <p id="columns">
+                        <label for="company">Company: </label>
+                        <input type="text" id="company">
+                    </p>
+                    <p id="columns">
+                        <label for="status">Status: </label>
+                        <input type="text" id="status">
+                    </p>
+                    <p id="columns">
+                        <button id="add-status-button">Add to Table</button>
+                    </p>
+                </section>
+            
+                <section id="column">
                     <h3>Interview Status: </h3>
                     <table>
                         <tr>
@@ -59,10 +96,8 @@
                         </tr>
                     </table>
                 </section>
-            <div>
-               
-            </div> 
         </div>
     </main>
     </div>
 </body>
+</html>
