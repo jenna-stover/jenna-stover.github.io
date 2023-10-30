@@ -11,6 +11,12 @@ body {
     border: 2px solid rgb(3, 50, 107);
 }
 
+#profile-link, #resume-link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+
 #content {
     width: 85%;
     margin: auto;
@@ -24,12 +30,47 @@ body {
     padding: 5px;
 }
 
+
+.column, .image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    flex: 1;
+}
+
 .padded-area {
     padding-top: 5px;
     margin: auto;
 }
 
+#image-resume {
+    width: 450px;
+    height: 550px;
+    border: 2px solid darkgray;
+}
 
+#linkedin-image {
+    width: 315px;
+    height: 175px;
+    border: 2px solid darkgray;
+}
+
+#purpose {
+    background-color: aliceblue;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    margin: 5px;
+}
+
+#iframe-header {
+    padding: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
 
 /* Main Navigation */
 #main-nav ul {
@@ -54,6 +95,7 @@ body {
     background-color: darkgray;
   }
 
+
 /* Typography */
 
 body {
@@ -62,10 +104,6 @@ body {
 
 h1 {
     padding: 5px;
-}
-
-h3 {
-    text-align: center;
 }
 
 #hamburger div {
@@ -79,28 +117,10 @@ h3 {
     display: none;
 }
 
-/* Table */
-table {
-    border-collapse: collapse;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
-
-td, th {
-    border: 1px solid black; 
-    padding: 4px;
-}
-
-th {
-    background: #7fbfd1;
-}
-
-td a{
-    color:#1f3a4a;
-}
-
-td a:hover{
-    color:#5797bd;
-}
-
 
 /* Larger Resolutions */
 
