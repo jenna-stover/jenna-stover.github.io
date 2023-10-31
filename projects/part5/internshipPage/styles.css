@@ -40,6 +40,20 @@ body {
     color:darkblue;
 }
 
+.internship {
+    background-color: rgb(206, 202, 188);
+    padding: 30px;
+    margin: 25px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 850px;
+    border: 2px solid rgb(112, 108, 98);
+  }
+
+.internship img {
+    width: 30%;
+    border-radius: 3px;
+}
 /* Main Navigation */
 #main-nav ul {
     padding-left: 0px;
@@ -63,28 +77,18 @@ body {
     background-color: darkgray;
   }
 
-  /* Table */
-table {
-    border-collapse: collapse;
-}
 
-td, th {
-    border: 1px solid black; 
-    padding: 4px;
-}
-
-th {
-    background: #6293b0;
-}
-
-td a{
-    text-decoration: none;
-    color:#1f3a4a;
-}
-
-td a:hover{
-    color:#5797bd;
-}
+/* List */
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
 /* Typography */
 
 body {
@@ -94,6 +98,10 @@ body {
 h1 {
     padding: 5px;
 }
+
+h2, h3 {
+    margin: 25px;
+  }
 
 
 #hamburger div {
@@ -109,9 +117,8 @@ h1 {
 
 /* Form */
 #data-form {
-    width: 60%;
+    width: 80%;
     max-width: 400px;
-    margin: 0 auto;
 }
   
 .columns {
@@ -141,10 +148,10 @@ button {
 /* Larger Resolutions */
 
 @media (min-width: 900px) {
-    #main-nav ul, .flex-container {
+    #main-nav ul, .flex-container, .internship {
         display: flex;
     }
-    #main-nav li, .column, .image{
+    #main-nav li, .column, .image, .internship{
         flex: 1;
     }
     #hamburger {
