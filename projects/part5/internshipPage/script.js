@@ -41,7 +41,7 @@ const showInternships = async () => {
     let internshipsSection = document.getElementById("internships-section");
 
     internships.forEach((internship) => {
-        internshipsSection.append(getInternshipItem(internship))
+        internshipsSection.append(getInternshipItem(internship));
     });
 };
 
