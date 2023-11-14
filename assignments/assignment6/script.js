@@ -16,7 +16,7 @@ const writeComment = () => {
 };
 
 const showImg = () => {
-    const imageElem = document.getElementById("cat-image")
+    const imageElem = document.getElementById("cat-image");
     imageElem.style.display = "block";
 }
 
