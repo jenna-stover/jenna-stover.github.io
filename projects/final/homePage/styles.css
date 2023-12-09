@@ -1,0 +1,142 @@
+/* Structure */
+
+body {
+    background-color:lightsteelblue;
+}
+
+#main-header {
+    background-color:aliceblue;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+    border: 2px solid rgb(3, 50, 107);
+}
+
+#profile-link, #resume-link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+#content {
+    width: 85%;
+    margin: auto;
+    padding: 3px 5px;
+}
+
+#main-content {
+    background-color:rgb(223, 221, 214);
+    border-radius: 10px;
+    border: 2px solid rgb(3, 50, 107);
+    padding: 5px;
+}
+
+
+.column, .image {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.padded-area {
+    padding-top: 5px;
+    margin: auto;
+}
+
+#image-resume {
+    width: 450px;
+    height: 550px;
+    border: 2px solid darkgray;
+}
+
+#linkedin-image {
+    width: 315px;
+    height: 175px;
+    border: 2px solid darkgray;
+}
+
+#purpose {
+    background-color: aliceblue;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    margin: 5px;
+}
+
+#iframe-header {
+    padding: 5px;
+}
+
+iframe {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Main Navigation */
+#main-nav ul {
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(131, 161, 187);
+    margin-bottom: auto;
+    padding: 10px;
+  }
+  
+  #main-nav li {
+    text-align: center;
+    list-style-type: none; 
+  }
+  
+  #main-nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #main-nav a:hover {
+    background-color:  rgb(156, 181, 202);
+    padding: 10px;
+  }
+
+
+/* Typography */
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 a{
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hide-small {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Larger Resolutions */
+
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container {
+        display: flex;
+    }
+    #main-nav li, .column, .image{
+        flex: 1;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+}

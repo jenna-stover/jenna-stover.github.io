@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>Jenna's Internships</Title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="content">
+    <header id="main-header" class="padded-area">
+        <h1>Internships Summer 2024</h1>
+        <nav id="main-nav">
+            <div id = "hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="../homePage/index.html">Home</a></li>
+                <li><a href="../internshipPage/index.html">Internships</a></li>
+                <li><a href="../appliedPage/index.html">Applied</a></li>
+                <li><a href="../reviewPage/index.html">Company Reviews</a></li>
+                <li><a href="#">Application Status</a></li>
+                <li><a href="../contactPage/index.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id = "main-content">
+        <div class="flex-container">
+                <section id="form1 column">
+                    <div>
+                        <p id="columns">
+                            <h3>Add Interview</h2>
+                        </p>
+                        <p id="columns">
+                            <label for="company">Company: </label>
+                            <input type="text" id="company">
+                        </p>
+                        <p id="columns">
+                            <label for="date">Date: </label>
+                            <input type="date" id="date">
+                        </p>
+                        <p id="columns">
+                            <label for="time">Time: </label>
+                            <input type="time" id="time">
+                        </p>
+                        <p id="columns">
+                            <button id="add-interview-button">Add to Table</button>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Interviews: </h3>
+                        <table id="interview-table">
+                        <tr>
+                            <th>Company</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>Coalfire</td>
+                            <td>10/20/23</td>
+                            <td>11am-11:45am</td>
+                        </tr>
+                        </table>
+                    </div>
+                </section>
+    
+                <section id="form2 column">
+                    <div>
+                        <p id="columns">
+                            <h3>Add Interview Status: </h3>
+                        </p>
+                        <p id="columns">
+                            <label for="company-status">Company: </label>
+                            <input type="text" id="company-status">
+                        </p>
+                        <p id="columns">
+                            <label for="status">Status: </label>
+                            <input type="text" id="status">
+                        </p>
+                        <p id="columns">
+                            <button id="add-status-button">Add to Table</button>
+                        </p>  
+                    </div>
+                    
+                    <div>
+                        <h3>Interview Status: </h3>
+                        <table id="status-table">
+                            <tr>
+                                <th>Company</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>Coalfire</td>
+                                <td>TBD</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+        </div>
+    </main>
+    </div>
+</body>
+</html>

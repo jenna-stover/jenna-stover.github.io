@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="content">
+    <header id="main-header" class="padded-area">
+        <h1>Internships Summer 2024</h1>
+        <nav id="main-nav">
+            <div id = "hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="../homePage/index.html">Home</a></li>
+                <li><a href="../internshipPage/index.html">Internships</a></li>
+                <li><a href="#">Applied</a></li>
+                <li><a href="../reviewPage/index.html">Company Reviews</a></li>
+                <li><a href="../statusPage/index.html">Application Status</a></li>
+                <li><a href="../contactPage/index.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id = "main-content">
+        <div class="flex-container">
+            <section class="col1of2 column">
+                <h2>Completed Applications: </h2>
+                <p class="column">
+                    <ul id="completed-apps-list">
+                        <li><a href="https://jobs.lever.co/coalfire/4de3320d-43de-4c37-9dd0-4ff6b2031f9b">2024 Summer Internship- Coalfire</a></li>
+                        <li><a href="https://jobs.wizehire.com/?ak=337f3eeee81e0626&success=1">Data Science Intern- Atmosfy</a></li>
+                    </ul>
+                </p>
+                <p class="column">
+                    <label for="add-completed">Add Completed Application: </label>
+                    <input id="add-completed" type="text">
+
+                    <button id="add-completed-button">Display</button>
+                </p>
+            </section>
+        </div>
+            
+        <div class="flex-container">
+            <section class="col2of2 column">
+                <h2>Application Progress: </h2>
+                <p class="column">
+                    <label for="number-completed"># of Applications Completed: </label>
+                    <input id="number-completed" type="number">
+
+                    <button id="progress-button">Calculate</button>
+                    <div id="progress-bar">
+                        <div id="progress-bar-fill"></div>
+                    </div>
+                </p>
+            </section>
+        </div>
+    </main>
+</div>
+</body>
+</html>
