@@ -4,7 +4,7 @@ body {
 
 #main-header {
     background-color:aliceblue;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     margin-bottom: 10px;
     border: 2px solid rgb(3, 50, 107);
 }
