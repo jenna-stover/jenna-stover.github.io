@@ -1,6 +1,23 @@
+@font-face {
+    font-family: 'Modern';
+    src: url('./fonts/Modern.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Modern-Bold';
+    src: url('./fonts/Modern-Bold.otf') format('opentype');
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: url(images/tech-background.jpg);
+    font-family: 'Modern';
+    background-color: #cbd9d9;
+    height: 100vh;
+    width: 100vw; 
+}
+
+h1,h2{
+    font-family: 'Modern-Bold';
 }
 
 #content {
@@ -9,8 +26,7 @@ body {
 }
 
 #main-header, #main-footer {
-    background: rgba(22, 29, 80, 0.70);
-    color: white;
+    background: #046865;
 }
 
 #main-header {
@@ -22,62 +38,69 @@ body {
 
 #main-footer {
     border-radius: 0 0 5px 5px;
+    padding-bottom: 5px;
+}
+
+#main-footer p{
+    transform: translateY(45%);
     padding: 5px;
 }
 
 .sub-section {
-    padding: 5px;
-    border: 5px solid rgb(3, 3, 63);
-}
-
-#main-content {
-    padding: 5px;
+    border: 2px solid rgb(3, 3, 63);
 }
 
 .column {
     text-align: center;
-    padding: 3px;
     margin: 5px;
     border-radius: 5px;
-    background-color: #aec3fa;
+    background-color: #04686515;
     width: 100%;
 }
 
 
 #assignment-link, #project-link {
+    color: #046865;
     text-decoration: none;
-    color: rgb(38, 45, 91);
+    border-bottom: 1px solid transparent; /* Initially set a transparent border */
+    transition: 0.3s ease;
 }
 
 #assignment-link:hover, #project-link:hover{
-    color:rgb(105, 142, 221);
+    border-bottom: 1px solid #046865;
 }
 
+
+#nav-items, #main-content{
+    font-size: 1.3rem;
+}
 /* Main Nav */
+#main-nav ul {
+    padding: 0; 
+    display: flex; 
+}
 
 #main-nav li {
     list-style-type: none; 
-    display: inline-block; 
     margin: 5px;
 }
 
-#main-nav ul {
-    padding: 0; /* Remove padding from the ul */
-}
-
 #main-nav a {
-    text-decoration: none; /* gets rid of underlines */
-    background-color: #93b0f7;
+    display: inline-flex; 
+    text-decoration: none; 
+    background-color: #cbd9d9;
     padding: 10px;
     color: black; 
-    text-align: center;
+    justify-content: center;
+    align-items: center; 
     border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
 }
 
 #main-nav a:hover {
-    background-color:rgb(53, 69, 128);
-    border: 2px solid white;
-    color: white;
+    background-color:#acb8b8;
+    border: 1px solid black;
 }
 
 
