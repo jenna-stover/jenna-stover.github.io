@@ -42,6 +42,39 @@ h3{
     padding-top: 5px;
 }
 
+#header-top{
+    margin-top: 10px;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+#back-link{
+    position: absolute;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.888); 
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+#back-link:hover{
+    background-color: rgba(255, 255, 255, 0.693);
+    border: 1px solid black;
+}
+
+h1 {
+    margin: 0 auto; 
+    font-size: 30px;
+    text-align: center;
+}
+
 #assignments-header {
     text-align: center;
 }
